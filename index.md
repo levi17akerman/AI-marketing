@@ -8,11 +8,11 @@ hero:
   tagline: 이비오 내부 자동화 시스템 가이드 문서입니다
   actions:
     - theme: brand
-      text: n8n자동화 가이드
-      link: /markdown-examples
+      text: n8n 자동화 가이드
+      link: /n8n-guide
     - theme: alt
       text: 이비오 API 가이드
-      link: /api-examples
+      link: /evio-api
 
 features:
   - title: Feature A

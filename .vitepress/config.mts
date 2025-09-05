@@ -9,15 +9,21 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'n8n자동화', link: '/n8n-guide' }
+      { text: 'n8n 자동화', link: '/n8n-guide' },
+      { text: '이비오 API', link: '/evio-api' }
     ],
 
     sidebar: [
       {
-        text: 'n8n자동화',
+        text: 'n8n 자동화',
         items: [
-          { text: 'n8n자동화', link: '/n8n-guide' },
-          { text: '이비오 API', link: '/evio-api' }
+          { text: '시작하기', link: '/n8n-guide' }
+        ]
+      },
+      {
+        text: '이비오 API',
+        items: [
+          { text: '시작하기', link: '/evio-api' }
         ]
       }
     ],
