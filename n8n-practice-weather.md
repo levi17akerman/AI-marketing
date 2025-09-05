@@ -144,16 +144,17 @@ http://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/getVilageFcst
 **Send Query Parameters**: ON
 
 **Query Parameters**:
-| Parameter | Value | 설명 |
-|-----------|-------|------|
-| serviceKey | YOUR_API_KEY | 공공데이터포털 인증키 |
-| numOfRows | 300 | 조회할 데이터 수 |
-| pageNo | 1 | 페이지 번호 |
-| dataType | JSON | 응답 데이터 타입 |
-| base_date | \{\{ $json.baseDate \}\} | 발표 날짜 |
-| base_time | \{\{ $json.baseTime \}\} | 발표 시각 |
-| nx | 67 | X 격자 좌표 (지역별) |
-| ny | 101 | Y 격자 좌표 (지역별) |
+
+다음 파라미터들을 추가하세요:
+
+- **serviceKey**: YOUR_API_KEY (공공데이터포털 인증키)
+- **numOfRows**: 300 (조회할 데이터 수)
+- **pageNo**: 1 (페이지 번호)
+- **dataType**: JSON (응답 데이터 타입)
+- **base_date**: Expression 모드로 변경 후 `$json.baseDate` 입력
+- **base_time**: Expression 모드로 변경 후 `$json.baseTime` 입력
+- **nx**: 67 (X 격자 좌표 - 지역별로 다름)
+- **ny**: 101 (Y 격자 좌표 - 지역별로 다름)
 
 > ⚠️ **주의**: serviceKey는 실제 발급받은 API 키로 교체하세요!
 
@@ -288,7 +289,7 @@ return [{
 
 **Message Type**: Text
 
-**Text**: \{\{ $json.message \}\}
+**Text**: Expression 모드로 변경 후 `$json.message` 입력
 
 **Options**:
 - Send as User: OFF
