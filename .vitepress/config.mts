@@ -4,19 +4,20 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "AI-marketing",
   description: "AI-marketing",
+  base: '/AI-marketing/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'n8n자동화', link: '/n8n-guide' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'n8n자동화',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'n8n자동화', link: '/n8n-guide' },
+          { text: '이비오 API', link: '/evio-api' }
         ]
       }
     ],
