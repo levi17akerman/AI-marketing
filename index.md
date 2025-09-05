@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "EVIO AI-marketing 자동화"
-  text: "AI-marketing Automation System"
+  name: "EVIO AI-marketing"
+  text: "Automation System"
   tagline: 이비오 내부 자동화 시스템 가이드 문서입니다
   actions:
     - theme: brand
