@@ -17,7 +17,8 @@ export default defineConfig({
       {
         text: 'n8n 자동화',
         items: [
-          { text: '시작하기', link: '/n8n-guide' }
+          { text: '시작하기', link: '/n8n-guide' },
+          { text: '실습 #1: 날씨 알림 봇', link: '/n8n-practice-weather' }
         ]
       },
       {
