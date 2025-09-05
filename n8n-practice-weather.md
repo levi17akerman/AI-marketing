@@ -150,8 +150,8 @@ http://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/getVilageFcst
 | numOfRows | 300 | 조회할 데이터 수 |
 | pageNo | 1 | 페이지 번호 |
 | dataType | JSON | 응답 데이터 타입 |
-| base_date | `{{ $json.baseDate }}` | 발표 날짜 |
-| base_time | `{{ $json.baseTime }}` | 발표 시각 |
+| base_date | \{\{ $json.baseDate \}\} | 발표 날짜 |
+| base_time | \{\{ $json.baseTime \}\} | 발표 시각 |
 | nx | 67 | X 격자 좌표 (지역별) |
 | ny | 101 | Y 격자 좌표 (지역별) |
 
@@ -288,7 +288,7 @@ return [{
 
 **Message Type**: Text
 
-**Text**: `{{ $json.message }}`
+**Text**: \{\{ $json.message \}\}
 
 **Options**:
 - Send as User: OFF
