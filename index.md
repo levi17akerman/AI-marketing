@@ -3,15 +3,15 @@
 layout: home
 
 hero:
-  name: "AI-marketing"
-  text: "AI-marketing"
-  tagline: My great project tagline
+  name: "EVIO AI-marketing 자동화"
+  text: "AI-marketing Automation System"
+  tagline: 이비오 내부 자동화 시스템 가이드 문서입니다
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: n8n자동화 가이드
       link: /markdown-examples
     - theme: alt
-      text: API Examples
+      text: 이비오 API 가이드
       link: /api-examples
 
 features:
